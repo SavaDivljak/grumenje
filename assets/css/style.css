@@ -156,8 +156,6 @@ h2{
     text-align: center;
     animation: coming 1s;
     position: relative;
-    top: -100px;
-    opacity: 0;
 }
 @keyframes coming{
     0%{

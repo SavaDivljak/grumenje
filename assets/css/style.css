@@ -154,6 +154,20 @@ h2{
     font-weight: bold;
     width: 35%;
     text-align: center;
+    animation: coming 1s;
+    position: relative;
+    top: -100px;
+    opacity: 0;
+}
+@keyframes coming{
+    0%{
+        opacity: 0;
+        top: -100px;
+    }
+    100%{
+        opacity: 1;
+        top: 0px;
+    }
 }
 #cover-img{
     background-position: 50% 0%;
@@ -171,6 +185,7 @@ h2{
 }
 .three{
     background-image: url("../img/cover3.jpg");
+    background-position: right !important;
 }
 .four{
     background-image: url("../img/cover4.jpg");

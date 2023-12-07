@@ -1,0 +1,21 @@
+<rss version="2.0">
+<channel>
+<title>Denver Nuggets</title>
+<link>https://savadivljak.github.io/grumenje/index.html</link>
+<description>Denver Nuggets - basketball team playing in NBA from Denver, Colorado</description>
+<language>en</language>
+<lastBuildDate>Thursday, 7 Dec 2023 11:00:00 +0000</lastBuildDate>
+<item>
+<title>Shop</title>
+<link>https://savadivljak.github.io/grumenje/shop.html</link>
+<description>New items in our shop!</description>
+<pubDate>Thursday, 7 Dec 2023 11:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Players</title>
+<link>https://savadivljak.github.io/grumenje/players.html</link>
+<description>Our squad is updated!</description>
+<pubDate>Thursday, 7 Dec 2023 11:00:00 +0000</pubDate>
+</item>
+</channel>
+</rss>

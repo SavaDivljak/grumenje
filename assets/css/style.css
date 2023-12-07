@@ -337,7 +337,7 @@ figure:hover{
 .border{
     border: 3px solid var(--yellow);
     border-radius: 30px;
-    background-color: var(--blue);
+    background-color: var(--lightblue);
     font-size: 16px;
     color: var(--white);
     height: 560px;
@@ -399,14 +399,11 @@ input[type="submit"]{
     width: 65%;
 }
 .author{
-    background-color: var(--blue);
+    background-color: var(--lightblue);
     color: var(--white);
     padding: 30px;
     border-radius: 30px;
     border: 3px solid var(--yellow);
-}
-.author img{
-    background-color: var(--darkwhite);
 }
 #ainfo{
     width: 60%;

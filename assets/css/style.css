@@ -199,7 +199,7 @@ h2{
 }
 .section{
     clip-path: polygon(0% 0%, 100% 50px, 100% 100%, 0% calc(100% - 50px));
-    padding: 60px 0px;
+    padding: 150px 0px;
 }
 .section, #footer-content{
     margin-top: -50px;

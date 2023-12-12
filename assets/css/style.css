@@ -418,7 +418,7 @@ footer{
 }
 #footer-content{
     background-color: var(--lightblue);
-    padding: 0% 10%;
+    padding: 100px 10% 50px 10%;
     height: 430px;
 }
 .footer-section{

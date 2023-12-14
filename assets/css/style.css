@@ -274,7 +274,8 @@ hr{
     text-align: center;
     display: block;
     border-radius: 10px;
-    color: var(--white);
+    color: var(--yellow);
+    border: 3px solid var(--yellow);
     background-color: var(--blue);
 }
 .more{

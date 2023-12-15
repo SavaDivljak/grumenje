@@ -283,13 +283,22 @@ hr{
     text-align: right;
     padding-right: 5%;
 }
+.more a{
+    padding: 0px 5px 5px 5px;
+}
 .white .more a{
     color: var(--blue);
     font-weight: bold;
 }
+.white .more a:hover{
+    border-bottom: 3px solid var(--blue);
+}
 .blue .more a{
     color: var(--white);
     font-weight: bold;
+}
+.blue .more a:hover{
+    border-bottom: 3px solid var(--white);
 }
 figure{
     width: 30%;
@@ -305,6 +314,9 @@ figcaption{
     font-size: 16px;
 }
 figure:hover, .item:hover, .gal:hover, .player:hover{
+    transform: scale(1.05);
+}
+figure, .item, .gal, .player{
     transform: scale(1.05);
 }
 .subs{

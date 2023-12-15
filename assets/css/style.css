@@ -283,9 +283,6 @@ hr{
     text-align: right;
     padding-right: 5%;
 }
-.more a{
-    padding: 0px 5px 5px 5px;
-}
 .white .more a{
     color: var(--blue);
     font-weight: bold;

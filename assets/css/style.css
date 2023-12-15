@@ -279,23 +279,36 @@ hr{
     background-color: var(--blue);
 }
 .more{
-    width: 100%;
-    text-align: right;
-    padding-right: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 30px;
+    margin: 0px auto;
 }
 .white .more a{
     color: var(--blue);
     font-weight: bold;
 }
-.white .more a:hover{
-    border-bottom: 3px solid var(--blue);
+.white .more a:hover::after{
+    content: "";
+    width: 100%;
+    height: 4px;
+    display: block;
+    background: var(--blue);
+    border-radius: 2px;
+}
+.blue .more a:hover::after{
+    content: "";
+    width: 100%;
+    height: 4px;
+    display: block;
+    background: var(--white);
+    border-radius: 2px;
 }
 .blue .more a{
     color: var(--white);
     font-weight: bold;
-}
-.blue .more a:hover{
-    border-bottom: 3px solid var(--white);
 }
 figure{
     width: 30%;

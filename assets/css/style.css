@@ -313,11 +313,11 @@ figcaption{
     color: var(--blue);
     font-size: 16px;
 }
-figure:hover, .item:hover, .gal:hover, .player:hover{
+figure:hover, .gal:hover, .player:hover{
     transform: scale(1.05);
     transition-duration: 1s;
 }
-figure, .item, .gal, .player{
+figure, .gal, .player{
     transform: scale(1);
     transition-duration: 1s;
 }

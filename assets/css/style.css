@@ -57,7 +57,7 @@ input, textarea{
 #back:hover{
     opacity: 1;
 }
-#back a i{
+#back i{
     font-size: 30px;
     color: var(--white);
 }
@@ -315,9 +315,11 @@ figcaption{
 }
 figure:hover, .item:hover, .gal:hover, .player:hover{
     transform: scale(1.05);
+    transition-duration: 1s;
 }
 figure, .item, .gal, .player{
-    transform: scale(1.05);
+    transform: scale(1);
+    transition-duration: 1s;
 }
 .subs{
     background: url("../img/subs.jpg") rgb(0, 0, 0, 0.8);

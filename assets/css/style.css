@@ -37,7 +37,7 @@ h2, h3{
 input[type="text"], input[type="email"], textarea{
     background-color: var(--white);
     border-radius: 5px;
-    outline: 2px solid transparent;
+    outline: 2px solid var(--blue);
     border: none;
     font-size: 16px;
     font-weight: normal;
@@ -259,7 +259,6 @@ hr{
 .player, .item{
     width: 30%;
     background-color: var(--darkwhite);
-    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.54);
     border: 5px solid var(--darkwhite);
     border-radius: 10px;
     text-align: center;
@@ -274,10 +273,19 @@ hr{
 .gal{
     width: 30%;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.54);
-}.player, .item, .gal, figure{
+}
+.player, .item, .gal, figure{
     margin: 30px 0px;
 }
+.player, .gal, figure img{
+    box-shadow: 0px 0px 0px;
+    transform: scale(1);
+    transition-duration: 0.5s'
+}
+.player:hover, .gal:hover, figure img:hover{
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.5);
+    transform: scale(1.05);
+    transition-duration: 0.5s;
 .item a{
     padding: 10px;
     width: 40%;
@@ -333,20 +341,11 @@ figure{
 figure img{
     width: 100%;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.54);
 }
 figcaption{
     text-align: center;
     color: var(--blue);
     font-size: 16px;
-}
-figure:hover, .gal:hover, .player:hover{
-    transform: scale(1.05);
-    transition-duration: 1s;
-}
-figure, .gal, .player{
-    transform: scale(1);
-    transition-duration: 1s;
 }
 .subs{
     background: url("../img/subs.jpg") rgb(0, 0, 0, 0.8);
@@ -379,17 +378,11 @@ figure, .gal, .player{
     font-size: 30px;
 }
 #conaut p, #conaut li, #conaut a, #conaut label{
-    color: var(--white);
+    color: var(--blue);
 }
 #conaut{
     justify-content: space-evenly;
     align-items: flex-start;
-    background-color: var(--lightblue);
-    padding: 2%;
-    border-radius: 20px;
-    border: 3px solid var(--yellow);
-    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.54);
-    margin: 60px auto 0px auto
 }
 input::placeholder, textarea::placeholder{
     font-family: 'Poppins', sans-serif;
@@ -410,7 +403,10 @@ input::placeholder, textarea::placeholder{
     margin: 10px 0px;
 }
 #con{
-    width: 50%;
+    width: 60%;
+    padding: 2%;
+    border-radius: 20px;
+    background-color: var(--darkwhite);
 }
 #con input, #con textarea{
     width: 100%;
@@ -442,12 +438,12 @@ textarea{
 }
 #conaut img{
     height: 400px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.5);
 }
 #ainfo{
     width: 25%;
     height: 400px;
-    display: flex;
-    align-items: center;
 }
 footer{
     clip-path: polygon(0% 0%, 100% 50px, 100% 100%, 0% 100%);

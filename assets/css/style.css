@@ -37,6 +37,10 @@ h2, h3{
 input, textarea{
     background-color: var(--white);
     border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: normal;
 }
 #back{
     width: 60px;
@@ -122,6 +126,10 @@ header{
     background-repeat: no-repeat;
     background-position: 10px 5px;
     background-size: 15px;
+    font-size: 14px;
+}
+#contact-row input::placeholder{
+    font-size: 14px;
 }
 nav{
     width: 100%;
@@ -283,31 +291,38 @@ hr{
     justify-content: flex-end;
     align-items: flex-start;
     height: 30px;
-    margin: 0px auto;
+    margin: 30px auto;
+}
+.more a{
+    font-weight: bold;
+}
+.more a::after{
+    width: 0%;
 }
 .white .more a{
     color: var(--blue);
-    font-weight: bold;
+}
+.more a::after{
+    content: "";
+    position: relative;
+    bottom: -2px;
+    height: 4px;
+    display: block;
+    border-radius: 2px;
+    transition: translateX(-50px);
+    transition: width 0.5s;
+}
+.more a:hover::after{
+    width: 100%;
 }
 .white .more a:hover::after{
-    content: "";
-    width: 100%;
-    height: 4px;
-    display: block;
-    background: var(--blue);
-    border-radius: 2px;
+    background-color: var(--blue);
 }
 .blue .more a:hover::after{
-    content: "";
-    width: 100%;
-    height: 4px;
-    display: block;
-    background: var(--white);
-    border-radius: 2px;
+    background-color: var(--white);
 }
 .blue .more a{
     color: var(--white);
-    font-weight: bold;
 }
 figure{
     width: 30%;
@@ -375,6 +390,7 @@ figure, .gal, .player{
 }
 input::placeholder, textarea::placeholder{
     font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 }
 #info{
     width: 25%;
@@ -395,10 +411,7 @@ input::placeholder, textarea::placeholder{
 }
 #con input, #con textarea{
     width: 100%;
-    padding: 5px;
-}
-#con input[type="text"], #con input[type="email"]{
-    height: 30px;
+    padding: 8px;
 }
 textarea{
     height: 200px;

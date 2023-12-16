@@ -37,7 +37,6 @@ h2, h3{
 input, textarea{
     background-color: var(--white);
     border-radius: 5px;
-    border: 1px solid var(--blue);
 }
 #back{
     width: 60px;
@@ -355,63 +354,58 @@ figure, .gal, .player{
 .subs a:hover, #logo a:hover, .flogo a:hover, .item a:hover, input[type="submit"]:hover{
     filter: brightness(70%);
 }
+.text{
+    width: 65%;
 .title h3{
     font-size: 30px;
 }
-.border{
-    border: 5px solid var(--yellow);
-    border-radius: 30px;
-    background-color: var(--lightblue);
-    font-size: 16px;
+#conaut p, #conaut li, #conaut a, #conaut label{
     color: var(--white);
-    height: 560px;
-    padding: 30px;
-    box-shadow: 0px 0px 20px 20px rgba(0,0,0,0.54);
+}
+#conaut{
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: var(--lightblue);
+    padding: 2%;
+    border-radius: 20px;
+    border: 3px solid var(--yellow);
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.54);
+    margin: 60px auto 0px auto
+}
+input::placeholder, textarea::placeholder{
+    font-family: 'Poppins', sans-serif;
 }
 #info{
-    width: 30%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    width: 25%;
 }
-#info ul li, #info h3{
+#info ul li, #ainfo ul li{
     width: 100%;
     margin: 10px 0px;
 }
 #info ul{
-    margin: 10px 0px;
+    margin-bottom: 20px;
 }
 #info h3{
     color: var(--yellow);
     margin: 10px 0px;
 }
 #con{
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
+    width: 50%;
 }
-input, textarea{
+#con input, #con textarea{
     width: 100%;
     padding: 5px;
 }
-input::placeholder, textarea::placeholder{
-    font-family: 'Poppins', sans-serif;
-}
-#con input{
+#con input[type="text"], #con input[type="email"]{
     height: 30px;
 }
 textarea{
     height: 200px;
 }
 .consec{
-    width: 80%;
+    width: 100%;
 }
-input[type="submit"]{
+#con input[type="submit"]{
     width: 100px;
     height: 40px;
     display: flex;
@@ -422,25 +416,21 @@ input[type="submit"]{
     color: var(--yellow);
     border: 3px solid var(--yellow);
     cursor: pointer;
+    margin: 0px auto;
 }
-.text{
-    width: 65%;
+#lihead{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px 0px 20px 0px !important;
 }
-.author{
-    background-color: var(--lightblue);
-    color: var(--white);
-    padding: 30px;
-    border-radius: 30px;
-    border: 5px solid var(--yellow);
-    box-shadow: 0px 0px 20px 20px rgba(0,0,0,0.54);
+#conaut img{
+    height: 400px;
 }
 #ainfo{
-    width: 60%;
-    text-align: center;
-}
-#ainfo p{
-    margin: 40px auto;
-    font-size: 25px;
+    width: 25%;
+    height: 400px;
+    display: flex;
+    align-items: center;
 }
 footer{
     clip-path: polygon(0% 0%, 100% 50px, 100% 100%, 0% 100%);

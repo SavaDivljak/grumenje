@@ -280,7 +280,7 @@ hr{
 .player, .gal, figure img{
     box-shadow: 0px 0px 0px;
     transform: scale(1);
-    transition-duration: 0.5s'
+    transition-duration: 0.5s;
 }
 .player:hover, .gal:hover, figure img:hover{
     box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.5);
@@ -294,7 +294,6 @@ hr{
     display: block;
     border-radius: 10px;
     color: var(--yellow);
-    border: 3px solid var(--yellow);
     background-color: var(--blue);
 }
 .more{
@@ -367,7 +366,6 @@ figcaption{
     padding: 10px 20px;
     background-color: var(--blue);
     color: var(--yellow);
-    border: 3px solid var(--yellow);
 }
 .subs a:hover, #logo a:hover, .flogo a:hover, .item a:hover, input[type="submit"]:hover{
     filter: brightness(70%);
@@ -428,7 +426,6 @@ textarea{
     border-radius: 10px;
     background-color: var(--blue);
     color: var(--yellow);
-    border: 3px solid var(--yellow);
     cursor: pointer;
     margin: 0px auto;
 }

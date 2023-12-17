@@ -383,7 +383,6 @@ figcaption{
 #conaut{
     justify-content: space-evenly;
     align-items: flex-start;
-    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.5);
 }
 input::placeholder, textarea::placeholder{
     font-family: 'Poppins', sans-serif;
@@ -408,6 +407,7 @@ input::placeholder, textarea::placeholder{
     padding: 2%;
     border-radius: 20px;
     background-color: var(--darkwhite);
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.5);
 }
 #con input, #con textarea{
     width: 100%;

@@ -293,7 +293,7 @@ hr{
     text-align: center;
     display: block;
     border-radius: 10px;
-    color: var(--yellow);
+    color: var(--white);
     background-color: var(--blue);
 }
 .more{
@@ -365,7 +365,7 @@ figcaption{
     border-radius: 10px;
     padding: 10px 20px;
     background-color: var(--blue);
-    color: var(--yellow);
+    color: var(--white);
 }
 .subs a:hover, #logo a:hover, .flogo a:hover, .item a:hover, input[type="submit"]:hover{
     filter: brightness(70%);
@@ -425,7 +425,7 @@ textarea{
     align-items: center;
     border-radius: 10px;
     background-color: var(--blue);
-    color: var(--yellow);
+    color: var(--white);
     cursor: pointer;
     margin: 0px auto;
 }

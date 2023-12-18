@@ -254,7 +254,7 @@ hr{
 }
 .content{
     width: 80%;
-    margin: 100px auto;
+    margin: 80px auto;
 }
 .player, .item{
     width: 30%;
@@ -279,6 +279,9 @@ hr{
     transform: scale(1);
     transition-duration: 0.5s;
     cursor: zoom-in;
+}
+.player, .item, .gal, figure{
+    margin: 20px auto;
 }
 .player:hover, .gal:hover, figure img:hover{
     box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.5);

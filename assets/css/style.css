@@ -209,7 +209,7 @@ h2{
 }
 .section{
     clip-path: polygon(0% 0%, 100% 50px, 100% 100%, 0% calc(100% - 50px));
-    padding: 150px 0px;
+    padding: 120px 0px;
 }
 .section, #footer-content{
     margin-top: -50px;
@@ -254,7 +254,7 @@ hr{
 }
 .content{
     width: 80%;
-    margin: 80px auto;
+    margin: 100px auto;
 }
 .player, .item{
     width: 30%;
@@ -300,7 +300,7 @@ hr{
     justify-content: flex-end;
     align-items: flex-start;
     height: 30px;
-    margin: 0px auto;
+    margin: -50px auto 0px auto;
 }
 .more a{
     font-weight: bold;
